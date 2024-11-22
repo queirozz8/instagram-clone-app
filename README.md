@@ -19,6 +19,7 @@ npm run build:css
 ```
 ## That's it! This project was made by Rick with ☕ and 💻.
 
+
 # VERSÃO EM PT-BR
 Primeiro, faça um git clone desse projeto:
 ```

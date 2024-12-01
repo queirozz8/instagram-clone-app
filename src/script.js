@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     // Botão de mostrar senha
-    togglePasswordButton.addEventListener('click', function () {
+    togglePasswordButton.addEventListener('click', () => {
         // Alterna o tipo do input entre 'password' e 'text'
         const type = passwordInput.getAttribute('type') === 'password' ? 'text' : 'password'
         passwordInput.setAttribute('type', type)

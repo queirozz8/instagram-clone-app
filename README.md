@@ -6,7 +6,7 @@ An app that clones the frontend of the Instagram login page.
 
 1. First, do a git clone of this project:
 ```
-git clone https://github.com/queirozz8/Instagram-Clone-App.git
+git clone https://github.com/queirozz8/instagram-clone-app.git
 ```
 2. Go to the directory of the project:
 ```

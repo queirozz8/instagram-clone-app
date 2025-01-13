@@ -9,7 +9,7 @@
 </head>
 <body class="flex flex-col w-screen h-screen font-sans md:overflow-x-hidden">
     <!-- Div geral -->
-    <div class="flex justify-center items-center w-screen h-screen mt-96 md:mt-24 lg:mt-32 xl:mt-0">
+    <div class="flex justify-center items-center w-screen h-screen mt-52 md:mt-24 lg:mt-32 xl:mt-0">
         <!-- Imagem do celular -->
         <aside>
             <img class="relative md:w-96 md:h-full md:right-3 lg:bottom-8 hidden md:block" src="phone.png" alt="Phone with Instagram">
@@ -23,7 +23,7 @@
                 <div class="flex flex-col justify-center items-center gap-4 rounded-sm">
                     <!-- Div da foto do Instagram -->
                     <div class="flex justify-center items-center mt-5">
-                        <img class="xl:w-44 xl:h-16" src="instagram_logo.png" alt="Instagram logo">
+                        <img class="w-24 md:w-auto xl:w-44 xl:h-16" src="instagram_logo.png" alt="Instagram logo">
                     </div>
                     
                     <!-- Div dos inputs -->
@@ -31,7 +31,7 @@
                     <!-- Input de Email -->
                     <div class="relative">
                         <input id="email"
-                        class="peer md:w-72 md:p-2 border border-zinc-300 rounded-sm focus:outline-none focus:border-zinc-500"
+                        class="peer w-72 p-2 border border-zinc-300 rounded-sm focus:outline-none focus:border-zinc-500"
                         type="email"
                         placeholder=""
                         required
@@ -47,7 +47,7 @@
                     <!-- Input de senha -->
                     <div class="relative">
                         <input id="password" 
-                        class="peer md:w-72 md:p-2 border border-zinc-300 rounded-sm focus:outline-none focus:border-zinc-500" 
+                        class="peer w-72 p-2 border border-zinc-300 rounded-sm focus:outline-none focus:border-zinc-500" 
                         type="password"
                         placeholder=""
                         minlength="8"
@@ -63,13 +63,13 @@
                     </div>
                     
                     <!-- Botão de mostrar senha -->
-                    <button id="togglePassword" type="button" class="absolute md:mt-[120px] xl:mt-custom md:ml-52 text-zinc-700 hover:text-zinc-400 text-sm">
+                    <button id="togglePassword" type="button" class="absolute mt-[120px] xl:mt-custom ml-52 text-zinc-700 hover:text-zinc-400 text-sm">
                         Mostrar
                     </button>
                     
                     <!-- Botão de enviar -->
                     <div class="flex flex-col justify-center items-center">
-                        <button id="submitButton" class="md:w-72 md:h-8 rounded-lg bg-button hover:bg-blue-500 text-white disabled:bg-blue-300" disabled>
+                        <button id="submitButton" class="w-72 h-8 rounded-lg bg-button hover:bg-blue-500 text-white disabled:bg-blue-300" disabled>
                             <strong class="font-semibold">Entrar</strong>
                         </button>
                         
